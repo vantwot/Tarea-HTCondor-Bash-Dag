@@ -1,0 +1,12 @@
+executable = ./nodo3
+arguments = datos-adultos-us.csv
+
+transfer_input_files = datos-adultos-us.csv
+
+output = output-nodo3.submit
+error = error-nodo3.submit
+log = log-nodo3.submit
+
+should_transfer_files = yes
+
+queue
