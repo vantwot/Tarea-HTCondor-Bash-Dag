@@ -1,0 +1,10 @@
+executable = ./nodo2.sh
+arguments = datos-adultos-us.csv
+
+output = estadistica.txt
+error = error-nodo2.submit
+log = log-nodo2.submit
+
+should_transfer_files = yes
+
+queue
