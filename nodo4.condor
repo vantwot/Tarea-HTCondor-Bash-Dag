@@ -1,11 +1,9 @@
-executable = ./nodo3
+executable = nodo4.sh
 arguments = datos-adultos-us.csv
 
-transfer_input_files = datos-adultos-us.csv
-
-output = output-nodo3.submit
-error = error-nodo3.submit
-log = log-nodo3.submit
+output = reporte_1.txt
+error = error-nodo4.submit
+log = log-nodo4.submit
 
 should_transfer_files = yes
 
