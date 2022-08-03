@@ -1,3 +1,2 @@
 dato=$1
-header=$(sed -i 1i"age,workclass,fnlwgt,education,education-num,marital-status,occupation,relationship,race,sex,capital-gain,capital-loss,hours-per-week,native-country,class" $dato)
-
+encabezado=$(sed -i 1i "age,type_employer, fnlwgt, education, education_num, marital, occupation, relationship, race, sex, capital_gain, capital_loss, hr_per_week, country, income"
