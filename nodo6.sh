@@ -1,3 +1,5 @@
 dato=$1
-filtro=$(cut -d ‘,’ -f 1, 4, 5, 9, 15 $dato)
+cantidad1=$(mean(cut -d ‘,’ -f 1 $dato))
 
+echo $filtro
+echo "La edad promedio de las personas es: ${cantidad1}"
