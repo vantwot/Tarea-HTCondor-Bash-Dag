@@ -1,0 +1,10 @@
+executable = nodo4.sh
+arguments = datos-adultos-us.csv
+
+output = reporte_1.txt
+error = error-nodo4.submit
+log = log-nodo4.submit
+
+should_transfer_files = yes
+
+queue
