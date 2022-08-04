@@ -8,5 +8,4 @@ error = error-nodo3.submit
 log = log-nodo3.submit
 
 should_transfer_files = yes
-
 queue
