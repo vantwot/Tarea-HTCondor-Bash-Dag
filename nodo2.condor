@@ -1,4 +1,4 @@
-executable = nodo2.sh
+executable = ./nodo2.sh
 arguments = datos-adultos-us.csv
 
 transfer_input_files = datos-adultos-us.csv
