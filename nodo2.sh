@@ -1,3 +1,5 @@
+#!/bin/bash
+
 dato=$1
 registros=$(wc -l $dato)
 imcompletos=$(grep -c ", ?," $dato)

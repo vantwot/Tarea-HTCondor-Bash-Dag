@@ -1,3 +1,5 @@
+#!/bin/bash
+
 dato=$1
 filtro=$(cut -d, -f 1,15,9 $dato)
 cantidad1=$(grep ">50K" $dato | grep "Black" | wc -l)
